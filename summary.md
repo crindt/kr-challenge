@@ -2,10 +2,12 @@
 
 
 ## Summary
-<!-- 250 chars -->
-Public Planning Models will connect an urban population to the models that drive urban
-planning.  The resulting two-way conversation between citizens and
-government will increase transparency and improve planning outcomes.
+<!-- 250 chars --> 
+
+Public Planning Models will connect an urban population to the models
+that drive urban planning.  The resulting two-way conversation between
+citizens and government will increase transparency and improve planning
+outcomes.
 
 ## Details
 
@@ -57,24 +59,26 @@ difficult, and typically happens only once a decade.
 
 ## Our solution
 
-Public Planning Models will open up a planning agency's planning
-models to the public.  Whether these models are activity-based or of
-the more traditional four-step planning process variety, these models
-are typically difficult to set up and run, and are generally kept
-hidden in back rooms and dark corners.  We feel that dragging these
-models out into public view, while difficult and painful, is necessary
-in order to improve the models, and to motivate the public to
-contribute better information into the modeling process.  All politics
-are local, and if a person hears about a new shopping mall or fast
-food eatery being proposed for his or her neighborhood, the Public
-Planning Models approach will allow individuals to both become
-educated on the expected impacts of such projects, and also to weigh
-in on how he or she might personally be impacted by the proposed
-development.  Similarly, if a mayor wants to push for area-wide
-vehicle tolling (following the London example), or a public bike-share
-program, people can see how the projected impacts of such large
-scale projects, and more importantly, evaluate the personal impacts of
-such projects compared to the "do nothing" alternatives.
+Public Planning Models will open up a planning agency's planning models
+to the public.  Whether these models are activity-based
+([pdf](http://orfe.princeton.edu/~alaink/NJ_aTaxiOrf467F12/Papers/lit%20review/TSHANDBK.pdf])
+or of the more traditional four-step planning process ([pdf](
+http://www.its.uci.edu/its/publications/papers/CASA/UCI-ITS-AS-WP-07-2.pdf))
+variety, these models are typically difficult to set up and run, and are
+generally kept hidden in back rooms and dark corners.  We feel that
+dragging these models out into public view, while difficult and painful,
+is necessary in order to improve the models, and to motivate the public
+to contribute better information into the modeling process.  All
+politics are local, and if a person hears about a new shopping mall or
+fast food eatery being proposed for his or her neighborhood, the Public
+Planning Models approach will allow individuals to both become educated
+on the expected impacts of such projects, and also to weigh in on how he
+or she might personally be impacted by the proposed development.
+Similarly, if a mayor wants to push for area-wide vehicle tolling
+(following the London example), or a public bike-share program, people
+can see how the projected impacts of such large scale projects, and more
+importantly, evaluate the personal impacts of such projects compared to
+the "do nothing" alternatives.
 
 The process of opening up these models to greater public scrutiny and
 to allow greater public input is not without challenges.  These
@@ -84,7 +88,7 @@ include:
   a common language and set of conventions for representing these
   model systems is central to Public Planning Models.
 
-* How to bring new data from the public interation with the Public
+* How to bring new data from the public interaction with the Public
   Planning Models systems into a planning model.  Again, different
   modeling approaches require different kinds of input data, and so a
   common set of abstractions will be necessary in order to have the
@@ -122,21 +126,20 @@ everybody.
 ## The team
 
 Public Planning Models is proposed by Activimetrics, a two-person
-consulting firm based in Orange County, California.  We are Craig
-Rindt and James Marca, both of whom obtained their PhDs in
-transportation engineering from the University of California, Irvine.
-We have been working in the transportation and planning fields for the
-past 20 years, and together have extensive experience working with
-planning models that range from microsimulation models of freeway
-interchanges, to mesoscopic models of traffic patterns in local
-cities, to long term planning models that describe future year
-scenarios for an entire metropolitan area.  We have solid working
-relationships with staff at Caltrans and at the California Air
-Resources Board, and will therefore focus our intial development on
-California cities and counties.  Our intent is to develop a
-system that can be deployed anywhere in the US, and so we will also contact
-municipalities in other states to act as initial customers during the
-development phase of our project.  
+consulting firm based in Orange County, California.  We are Craig Rindt
+and James Marca, both of whom obtained their PhDs in transportation
+engineering from the University of California, Irvine.  We have been
+working in the transportation and planning fields for the past 20 years,
+and together have extensive experience working with planning models that
+range from microsimulation models of freeway interchanges, to mesoscopic
+models of traffic patterns in local cities, to long term planning models
+that describe future year scenarios for an entire metropolitan area.  We
+have solid working relationships with staff at Caltrans and at the
+California Air Resources Board, and will therefore focus our intial
+development on California cities and counties.  Our intent is to develop
+a system that can be deployed anywhere in the US, and so we will also
+contact municipalities in other states to act as initial customers
+during the development phase of our project.
 
 Compared to the "typical" transportation engineer, we have unique
 skills in the areas of managing data and abstracting interfaces.  As
