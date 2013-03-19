@@ -34,7 +34,7 @@ model* by allowing *everyone* to:
 
 ## Key products
 
-* Adding *recent* urban forecasting data to the open data catalogue
+* Adding *recent* urban forecasting data to the open data catalog
 
 * Opening current forecasting models for the public's inspection and use
 
@@ -49,7 +49,7 @@ model* by allowing *everyone* to:
 The challenges and shortcomings of the planning process in the United
 States are well known, and have been studied extensively since the
 early 1970s.  The current leading edge of the state of the practice
-has turned towards activity-based models and simulation.  Activty
+has turned towards activity-based models and simulation.  Activity
 models are based on one or two day travel and activity surveys, and
 attempt to generate synthetic activity patterns for all households in
 an area.  While this approach shows promise, the fundamental barrier
@@ -177,7 +177,7 @@ model-calibration step.
 
 A Current Projects section of the website would present any projects
 that are currently under consideration by the local or regional
-governments.  Simliar to the model review section, users could see how
+governments.  Similar to the model review section, users could see how
 their travel and activity patterns are affected by each proposed
 development.  Complementing the current projects section, a Project
 Submission section would also exist to allow interested parties to
@@ -190,13 +190,13 @@ While it might be the case that some municipalities will want to run
 their own public website, our current thinking is that municipalities
 would be more than happy to offload such work onto us.  While we
 haven't yet considered revenue streams to establish a continued
-maintennance of this data, there are several models that might fit,
+maintenance of this data, there are several models that might fit,
 including establishing a public, non-profit entity.  Given the nature
 of the project, a for-profit enterprise might not be the best approach.
 
-### Smartphone Apps
+### Smart phone Apps
 
-While our intial focus will be on developing a solid, HTML5 website as
+While our initial focus will be on developing a solid, HTML5 website as
 the public face of the project, we are well aware that everybody
 expects iOS or Android apps.  Our current team does not have an app
 developer on board, and this is a shortcoming of the project.  We
@@ -238,7 +238,7 @@ range from microsimulation models of freeway interchanges, to mesoscopic
 models of traffic patterns in local cities, to long term planning models
 that describe future year scenarios for an entire metropolitan area.  We
 have solid working relationships with staff at Caltrans and at the
-California Air Resources Board, and will therefore focus our intial
+California Air Resources Board, and will therefore focus our initial
 development on California cities and counties.  Our intent is to develop
 a system that can be deployed anywhere in the US, and so we will also
 contact municipalities in other states to act as initial customers
@@ -275,14 +275,14 @@ request.
 One area where our team lacks experience is in developing iOS and
 Android apps.  We are well-versed in web-based application
 development, but while web-based HTML5 interfaces can reach a broad
-audience, we also recognize that smartphones and tablets are going to
+audience, we also recognize that smart phones and tablets are going to
 be the dominant way people interact with Public Planning Models.  To
 that end, we expect to hire at least two engineers to develop iOS and
 Android apps for this project.  Ideally the apps would use an off-line
 first strategy, syncing the projects and travel patterns of the
 individual with the projects and planning models most likely to impact
 that individual, so that feedback and input can be made with or
-without a web connetion.
+without a web connection.
 
 Finally, we place a high value on open source software and open data,
 and will open up the entire Public Planning Models stack for use by
