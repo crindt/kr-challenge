@@ -36,7 +36,7 @@ Public Planning Models extends the concept of open data to *open model* by allow
 
 * Adding *recent* urban forecasting data to the open data catalogue
 
-* Opening current forecasting models for the public's use
+* Opening current forecasting models for the public's inspection and use
 
 * Establishing a set of conventions and tools that translate planning
   models into an open, web-based visualization framework
@@ -56,6 +56,18 @@ an area.  While this approach shows promise, the fundamental barrier
 is that collecting the necessary input data is expensive and
 difficult, and typically happens only once a decade.
 
+The more common state of the practice is to use the Four-Step
+planning process.  This approach has the distinction of being both
+thoroughly discredited, and widely used!  One of the reasons that the
+four-step process is still used is that even though it can be shown to
+be broken, it produces future year forecasts based on a modest set of
+input data.  Alternative methods require more data and more rigorous
+modeling step, and in the end cannot be proven to be much better.
+
+The *problem* as we see it, is that no matter what modeling approach
+is used, the process and results are shrouded in mystery, and can only
+be fully understood by a handful of people who live and breathe the
+local agency's planning model data.
 
 ## Our solution
 
@@ -68,17 +80,44 @@ variety, these models are typically difficult to set up and run, and are
 generally kept hidden in back rooms and dark corners.  We feel that
 dragging these models out into public view, while difficult and painful,
 is necessary in order to improve the models, and to motivate the public
-to contribute better information into the modeling process.  All
-politics are local, and if a person hears about a new shopping mall or
-fast food eatery being proposed for his or her neighborhood, the Public
-Planning Models approach will allow individuals to both become educated
-on the expected impacts of such projects, and also to weigh in on how he
-or she might personally be impacted by the proposed development.
-Similarly, if a mayor wants to push for area-wide vehicle tolling
-(following the London example), or a public bike-share program, people
-can see how the projected impacts of such large scale projects, and more
-importantly, evaluate the personal impacts of such projects compared to
-the "do nothing" alternatives.
+to contribute better information into the modeling process.  
+
+All politics are local.  People only really care about issues if they
+are directly affected, but caring doesn't translate into being able to
+understand and contribute to the conversation.  For example, presently
+if a person hears about a new shopping mall or fast food eatery being
+proposed for his or her neighborhood, the individual can try to be
+present at the open planning committee meeting at which the new
+development will be evaluated.  If the individual is worried about
+traffic impacts, he or she must be able to understand complicated
+models that are documented in sometimes hundreds of pages of reports.
+
+Our project, Public Planning Models, will attempt to localize and
+personalize the output of planning models.  In the above example, the
+key metric might be link travel times on roads surrounding the project
+for the various alternatives.  This can be translated into total trip
+times quite easily, and trip times are something everybody can
+understand.  In our current vision of the tool, a concerned citizen
+would be able to enter an origin, a destination, and a time of day,
+and would then see immediately how long that specific trip will take
+under the various alternatives considered, as well as the current time
+that trip takes (according to the planning models).  This will allow
+individuals to understand different alternatives, and better
+contribute to the debate by being able to articulate how he or she
+might personally be impacted.
+
+The benefits are not limited to individuals.  A developer would have
+access to the same set of tools, and would be able to more easily
+model the traffic impacts a proposed project might have using a
+standard baseline model.  Similarly, if a political leaders or
+environmental activists want to push for area-wide vehicle tolling
+(following the London example), a public bike-share program, or
+expanded mass transit, the Public Planning Models tools will allow
+them to start with the community's current baseline planning model,
+develop their ideal scenario, and then insert those outcomes directly
+into the public dialog.  Average citizens can see the projected
+impacts of such large scale projects and how they might be affected
+both positively and negatively.
 
 The process of opening up these models to greater public scrutiny and
 to allow greater public input is not without challenges.  These
@@ -86,7 +125,8 @@ include:
 
 * Models differ across regions, cities, and even localities.  Finding
   a common language and set of conventions for representing these
-  model systems is central to Public Planning Models.
+  model systems is hard, and is a central component of Public Planning
+  Models.
 
 * How to bring new data from the public interaction with the Public
   Planning Models systems into a planning model.  Again, different
@@ -97,14 +137,77 @@ include:
 * How to protect the privacy of individual persons and households
   reviewing and contributing planning data, while still giving users
   the belief that their particular contributions are being used.  For
-  example, if a person clicks in their daily commute to work, the
-  exact information should be hidden from every other user, and
-  anonymized sufficiently prior to insertion into the planning model
-  system, but the user should be able to see their contribution and
-  feel like their voice has been heard.
+  example, if a person takes the time to enter their daily travel
+  patterns, the exact information should be hidden from every other
+  user and anonymized sufficiently prior to insertion into the
+  planning model system.  But the user should be able to see their
+  contribution and feel like their voice has been heard.
 
 
+## The tool
 
+The fundamental elements of the proposed system are as follows:
+
+### A tool to translate the output of planning models into a common data set   
+
+This element will be the most difficult to develop, but is crucial to
+the success of the project.  We expect that it will consist of a
+combination of computer programs and established conventions to use
+depending upon which modeling package is being used. While all
+planning model systems are unique, they all tend to have certain
+features in common, such as the use of traffic analysis zones,
+origin-destination matrices, and traffic network data.  Any planning
+model output can be converted back into future year traffic analysis
+zones with modified land uses, updated origin-destination matrices for
+future planning years, and loaded traffic networks. 
+
+### A web-based portal to publicize the Public Planning Models data.  
+
+The public face of the Public Planning Models project will be a
+website that everybody can access.  The website would have at least
+four different areas.  An Inputs area would allow interested
+individuals to enter their own travel and activity data, and indicate
+spatially and temporally what projects they personally would be
+interested in.  A Model Review section would allow people to examine
+baseline and future year models, enter their own travel plans (or use
+ones already entered via the Inputs section) and see if the planning
+models as they currently stand pass muster.  This part of the website
+would also allow for user feedback, enabling a crowd-sourced
+model-calibration step.  
+
+A Current Projects section of the website would present any projects
+that are currently under consideration by the local or regional
+governments.  Simliar to the model review section, users could see how
+their travel and activity patterns are affected by each proposed
+development.  Complementing the current projects section, a Project
+Submission section would also exist to allow interested parties to
+submit new projects for consideration.  While we haven't thought much
+about how this aspect might work, one idea would allow users to edit a
+custom copy of the planning zones and traffic networks, allowing them
+to create custom scenarios.
+
+While it might be the case that some municipalities will want to run
+their own public website, our current thinking is that municipalities
+would be more than happy to offload such work onto us.  While we
+haven't yet considered revenue streams to establish a continued
+maintennance of this data, there are several models that might fit,
+including establishing a public, non-profit entity.  Given the nature
+of the project, a for-profit enterprise might not be the best approach.
+
+### Smartphone Apps
+
+While our intial focus will be on developing a solid, HTML5 website as
+the public face of the project, we are well aware that everybody
+expects iOS or Android apps.  Our current team does not have an app
+developer on board, and this is a shortcoming of the project.  We
+intend to use modern web design tools to produce sites that can work
+on all kinds of devices.  Furthermore, our data and methods will be
+open, so other developers can take our data and create their own apps.
+But most likely we will hire a app developer immediately if this
+project is funded.  It would be really cool if an app in your phone
+could alert you not only when current traffic conditions might hinder
+today's trip home, but also let you know whenever a development plan
+is proposed that might impact some aspect of your future life.
 
 ## The Long term benefits
 
@@ -192,8 +295,7 @@ and our data.
 
 ## What is the project (in 1 sentence)
 
-The idea behind the Public Planning Models project is to develop a set
-of tools and conventions that will allow government agencies of all
+The Public Planning Models project will allow government agencies of all
 sizes to share their planning models on-line with the public, and in
 turn accept feedback and input that can be folded back into the
 planning model process.  
