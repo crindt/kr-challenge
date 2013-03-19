@@ -14,22 +14,22 @@ outcomes.
 Urban and Transportation planners have the unenviable task of modeling
 the population's behavior, and using those models to evaluate
 suggested policies.  This is a balance between science and art,
-engineering and politics.  More often than not, the core need to
-produce *something* leads to necessarily simplified models that are
-only occasionally sensitive to the things that matter and are rarely
-critically evaluated.
+engineering and politics.  The core need to produce *something* leads
+to simplified models that can be insensitive to important inputs, and
+the size and complexity of the models means they are rarely critically
+evaluated.
 
-Public Planning Models extends the concept of open data to *open model* by allowing
-*everyone* to:
+Public Planning Models extends the concept of open data to *open
+model* by allowing *everyone* to:
 
 * see the predictions made by urban professionals and used by
   decision makers,
   
 * use the outputs of these models for their own purposes,
 
-* evaluate the quality of these models on an ongoing basis,
+* evaluate the quality of these models on an ongoing basis, and
 
-* inject data directly into these models to improve their quality.
+* inject data  into these models to improve their quality.
 
 
 ## Key products
