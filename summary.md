@@ -295,7 +295,7 @@ and our data.
 
 ## What is the project (in 1 sentence)
 
-The Public Planning Models project will allow government agencies of all
-sizes to share their planning models on-line with the public, and in
-turn accept feedback and input that can be folded back into the
-planning model process.  
+The Public Planning Models project will allow government agencies to
+share their planning models on-line with the public, and in turn
+accept feedback and input that can be folded back into the planning
+model process.
