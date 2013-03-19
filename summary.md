@@ -73,9 +73,8 @@ local agency's planning model data.
 
 Public Planning Models will open up a planning agency's planning
 models to the public.  Whether these models are activity-based
-([pdf](http://orfe.princeton.edu/~alaink/NJ_aTaxiOrf467F12/Papers/lit%20review/TSHANDBK.pdf])
-or of the more traditional four-step planning process ([pdf](
-http://www.its.uci.edu/its/publications/papers/CASA/UCI-ITS-AS-WP-07-2.pdf))
+([pdf](http://orfe.princeton.edu/~alaink/NJ_aTaxiOrf467F12/Papers/lit%20review/TSHANDBK.pdf))
+or of the more traditional four-step planning process ([pdf](http://www.its.uci.edu/its/publications/papers/CASA/UCI-ITS-AS-WP-07-2.pdf))
 variety, these models are typically difficult to set up and run, and
 are generally kept hidden in back rooms and dark corners.  We feel
 that dragging these models out into public view is
