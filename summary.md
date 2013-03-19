@@ -29,7 +29,7 @@ model* by allowing *everyone* to:
 
 * evaluate the quality of these models on an ongoing basis, and
 
-* inject data  into these models to improve their quality.
+* inject data into these models to improve their quality.
 
 
 ## Key products
@@ -91,19 +91,29 @@ development will be evaluated.  If the individual is worried about
 traffic impacts, he or she must be able to understand complicated
 models that are documented in sometimes hundreds of pages of reports.
 
-Our project, Public Planning Models, will attempt to localize and
-personalize the output of planning models.  In the above example, the
-key metric might be link travel times on roads surrounding the project
-for the various alternatives.  This can be translated into total trip
-times quite easily, and trip times are something everybody can
-understand.  In our current vision of the tool, a concerned citizen
-would be able to enter an origin, a destination, and a time of day,
-and would then see immediately how long that specific trip will take
-under the various alternatives considered, as well as the current time
-that trip takes (according to the planning models).  This will allow
-individuals to understand different alternatives, and better
-contribute to the debate by being able to articulate how he or she
-might personally be impacted.
+Instead, imagine a population engaged in the planning process because
+they have with direct information about how policy options will impact
+their daily lives.  This is the central vision of our project.  Public
+Planning Models will localize and personalize the output of planning
+models so that empowers citizens to create the communities they want.
+
+In the above example, the key metric might be link travel times on roads
+surrounding the project for the various alternatives.  This can be
+translated into total trip times quite easily, and trip times are
+something everybody can understand.  Using our tool, a concerned citizen
+would be able to enter an origin, a destination, and a time of day, and
+would then see immediately how long that specific trip will take under
+the various alternatives considered, as well as the current time that
+trip takes (according to the planning models).  This will allow
+individuals to understand different alternatives, and better contribute
+to the debate by being able to articulate how he or she might personally
+be impacted.
+
+Taking it one step further, users will be able to use our mobile
+application to automatically link their travel patterns into the system.
+These patterns can be used to notify those users when proposed plans
+might impact their current behavior based on model-generated metrics
+chosen by the user.  
 
 The benefits are not limited to individuals.  A developer would have
 access to the same set of tools, and would be able to more easily
@@ -117,6 +127,13 @@ develop their ideal scenario, and then insert those outcomes directly
 into the public dialog.  Average citizens can see the projected
 impacts of such large scale projects and how they might be affected
 both positively and negatively.
+
+Finally, the open, anonymized data collected through Public Planning
+Models becomes a new source of high fidelity information that can be
+incorporated back into the planning models themselves.  This direct
+feedback offers the potential for improving the fit between model
+predictions and what the population is actually doing.
+
 
 The process of opening up these models to greater public scrutiny and
 to allow greater public input is not without challenges.  These
@@ -243,17 +260,17 @@ a system that can be deployed anywhere in the US, and so we will also
 contact municipalities in other states to act as initial customers
 during the development phase of our project.
 
-Compared to the "typical" transportation engineer, we have unique
-skills in the areas of managing data and abstracting interfaces.  As
-an example of this, Dr. Rindt recently completed a web-based interface
-for Caltrans District 12 that allows them to review how the efforts of
-the freeway traffic management center improved the response and
-clearing times for specific incidents in any given day.  The system
-required the development of database systems that could process
-traffic loop data (one observation every 30 seconds from upwards of
-2,000 detectors) on a rolling 12-month horizon, along with systems to
-abstract key inputs from the California Highway Patrol's incident log,
-and the traffic management center's activity log.
+Compared to the "typical" transportation engineer or planner, we have
+unique skills in the areas of managing data and abstracting interfaces.
+As an example of this, Dr. Rindt recently completed a web-based
+interface for Caltrans District 12 that allows them to review how the
+efforts of the freeway traffic management center improved the response
+and clearing times for specific incidents in any given day.  The system
+required the development of database systems that could process traffic
+loop data (one observation every 30 seconds from upwards of 2,000
+detectors) on a rolling 12-month horizon, along with systems to abstract
+key inputs from the California Highway Patrol's incident log, and the
+traffic management center's activity log.
 
 On a similar scale, but with different data, Dr. Marca has been
 working with the California Air Resources Board to develop an
@@ -284,11 +301,11 @@ that individual, so that feedback and input can be made with or
 without a web connection.
 
 Finally, we place a high value on open source software and open data,
-and will open up the entire Public Planning Models stack for use by
-any agency.  While we have good ideas and can execute them, experience
-has shown that the broader Internet will always come up with something
-new and different.  The best way to leverage this is to share our code
-and our data.
+and will open up the entire Public Planning Models stack for use by any
+agency or organization.  While we have good ideas and can execute them,
+experience has shown that the broader global community will always come
+up with something new and different.  The best way to leverage this is
+to share our code and our data.
 
 
 
