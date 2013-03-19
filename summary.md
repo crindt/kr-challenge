@@ -71,16 +71,16 @@ local agency's planning model data.
 
 ## Our solution
 
-Public Planning Models will open up a planning agency's planning models
-to the public.  Whether these models are activity-based
+Public Planning Models will open up a planning agency's planning
+models to the public.  Whether these models are activity-based
 ([pdf](http://orfe.princeton.edu/~alaink/NJ_aTaxiOrf467F12/Papers/lit%20review/TSHANDBK.pdf])
 or of the more traditional four-step planning process ([pdf](
 http://www.its.uci.edu/its/publications/papers/CASA/UCI-ITS-AS-WP-07-2.pdf))
-variety, these models are typically difficult to set up and run, and are
-generally kept hidden in back rooms and dark corners.  We feel that
-dragging these models out into public view, while difficult and painful,
-is necessary in order to improve the models, and to motivate the public
-to contribute better information into the modeling process.  
+variety, these models are typically difficult to set up and run, and
+are generally kept hidden in back rooms and dark corners.  We feel
+that dragging these models out into public view is
+necessary in order to improve the models, and to motivate the public
+to contribute better information into the modeling process.
 
 All politics are local.  People only really care about issues if they
 are directly affected, but caring doesn't translate into being able to
@@ -150,9 +150,9 @@ The fundamental elements of the proposed system are as follows:
 
 ### A tool to translate the output of planning models into a common data set   
 
-This element will be the most difficult to develop, but is crucial to
+This element will be the most challenging to develop, but is crucial to
 the success of the project.  We expect that it will consist of a
-combination of computer programs and established conventions to use
+combination of computer programs and established conventions to apply
 depending upon which modeling package is being used. While all
 planning model systems are unique, they all tend to have certain
 features in common, such as the use of traffic analysis zones,
